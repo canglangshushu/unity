@@ -1,9 +1,9 @@
 import os
 from arcpy import env
 import arcpy
-env.workspace = r"C:\Users\11422\Desktop"
+env.workspace = r"path\to\workspace"
 env.overwriteOutput = True
-path = r'C:\Users\11422\Desktop'
+path = r'path\to\workspace'
 point = 'starky10.shp'
 def readtxt(a):
     with open(a,'r')as g :

@@ -2,7 +2,7 @@ from point import readtxt
 from arcpy import env
 import os
 import arcpy
-path = r'C:\Users\11422\Desktop'
+path = r'path\to\workspace'
 env.workspace = path
 env.overwriteOutput = True
 point = 'starky9.shp'
